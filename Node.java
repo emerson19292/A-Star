@@ -6,7 +6,9 @@ public class Node {
 	
 	int parentX, parentY;
 	
-	int fCost, gCost, hCost;
+	int fCost;
+	
+	static final int OPEN = 1, CLOSED = 2, WALL = 3, NULL = 4;
 	
 	public Node() {
 		// TODO Auto-generated constructor stub

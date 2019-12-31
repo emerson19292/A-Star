@@ -7,12 +7,16 @@ import java.util.concurrent.TimeUnit;
 import javax.swing.JComponent;
 import javax.swing.JFrame;
 
-;
-
 @SuppressWarnings("serial")
 public class Main extends JFrame {
 	
+	public int boardHeight = 20;
+	public int boardWidth = 20;
+	public int nodeSize = 10;
+	
 	public static void main(String[] args) {
+		
+		public int[][] nodes = new int[boardHeight][BoardWidth];
 		
 		new Main();
 
@@ -21,7 +25,7 @@ public class Main extends JFrame {
 	public Main() {
 		
 		this.setSize(500, 500);
-		this.setTitle("Main bike game");
+		this.setTitle("A*");
 		this.setResizable(false);
 		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
 		this.setLocationRelativeTo(null);
