@@ -22,9 +22,9 @@ import javax.swing.KeyStroke;
 @SuppressWarnings("serial")
 public class Main extends JFrame {
 	
-	public static int boardHeight = 80;
-	public static int boardWidth = 80;
-	public static int nodeSize = 8;
+	public static int boardHeight = 40;
+	public static int boardWidth = 40;
+	public static int nodeSize = 16;
 	
 	public static Point start = new Point(0,0);
 	public static Point end = new Point(0,1);
