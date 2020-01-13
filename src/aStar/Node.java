@@ -48,7 +48,7 @@ public class Node {
 					}
 				} catch (Exception ex) {
 					
-					System.out.println("Algorithm attempted check out of bounds. Telling algorothm off...");
+					System.out.println("Algorithm attempted check out of bounds. Telling algorithm off...");
 					
 				}
 				
